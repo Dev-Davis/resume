@@ -38,15 +38,25 @@ export default function BookFlip() {
             <a href="https://www.linkedin.com/in/sean-dev/" target="_blank">
               LinkedIn
             </a>
-            <a href="https://www.https://github.com/Dev-Davis" target="_blank">
+            <a href="https://github.com/Dev-Davis" target="_blank">
               Github
             </a>
+          </section>
+          <section className="page-contents">
+            <p className="page-turn">Work Experience on next page...</p>
           </section>
         </div>
         <div className="bookPage">
           <p className="work-experience title bold">Professional Experience</p>
           <section className="work-title">
-            <p className="bold title">Steel Summit Holdings</p>
+            <p className="bold title">
+              <img
+                src="https://i.ibb.co/Gfqj8mLj/steelsummit-logo.png"
+                alt="steelsummit-logo"
+                className="work-img ss"
+                border="0"
+              />
+            </p>
             <p className="title">
               <i>Mid Level Programmer Analyst 2022 - 2024</i>
             </p>
@@ -77,7 +87,14 @@ export default function BookFlip() {
           </section>
           <hr />
           <section className="work-title">
-            <p className="bold title">Cracker Barrel</p>
+            <p className="bold title">
+              <img
+                src="https://i.ibb.co/XZtzjCTB/thebarrel.png"
+                className="work-img cb"
+                alt="thebarrel"
+                border="0"
+              ></img>
+            </p>
             <p className="title">
               <i>Junior Front End Developer 2021 - 2022</i>
             </p>
@@ -106,6 +123,10 @@ export default function BookFlip() {
               </li>
             </ul>
           </section>
+          <section className="page-contents">
+            <p className="page-turn">Developer info on previous page...</p>
+            <p className="page-turn">Skills on next page...</p>
+          </section>
         </div>
         <div className="bookPage">
           <section>
@@ -121,6 +142,10 @@ export default function BookFlip() {
               <p>Leadership</p>
               <p>Problem Solving</p>
             </div>
+          </section>
+          <section className="page-contents">
+            <p className="page-turn">Work Experience on previous page...</p>
+            <p className="page-turn">Education on next page...</p>
           </section>
         </div>
         <div className="bookPage">
@@ -138,6 +163,9 @@ export default function BookFlip() {
               <p>2025-2025</p>
             </div>
             <div className="bold">Front End Development</div>
+          </section>
+          <section className="page-contents">
+            <p className="page-turn">Skills on previous page...</p>
           </section>
         </div>
       </HTMLFlipBook>

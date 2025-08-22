@@ -1,7 +1,7 @@
 body {
   background-color: skyblue;
   height: 100%;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 hr {
@@ -12,6 +12,10 @@ a {
   text-decoration: none;
   color: black;
   margin: 0.5rem;
+}
+
+p {
+  margin: 0.5em;
 }
 
 .demoPage {
@@ -47,7 +51,8 @@ a {
   width: 90%;
 }
 
-.work-title, .school-list {
+.work-title,
+.school-list {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -57,7 +62,7 @@ a {
   position: relative;
 }
 .developer-img {
-  height: 7rem;
+  height: 7em;
   border-radius: 50%;
 }
 
@@ -81,4 +86,23 @@ a {
 .socials {
   display: flex;
   flex-direction: column;
+}
+
+.ss {
+  height: 2em;
+}
+
+.cb {
+  height: 4em;
+  width: 5em;
+}
+
+.page-contents {
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 0;
+  width: 100%; /* Ensures it spans the full width */
+  padding: 10px; /* Example styling */
+  text-align: center; /* Example styling */
 }
